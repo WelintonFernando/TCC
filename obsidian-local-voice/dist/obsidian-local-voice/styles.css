@@ -1,0 +1,367 @@
+/* Local Voice (TTS Reader) - Obsidian Sidebar Styles */
+
+.lv-sidebar-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 12px;
+	gap: 10px;
+	overflow: hidden;
+	color: var(--text-normal);
+}
+
+/* Header & Title */
+.lv-header {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.lv-title-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.lv-title-icon {
+	display: flex;
+	align-items: center;
+	color: var(--interactive-accent);
+}
+
+.lv-note-title {
+	font-weight: 600;
+	font-size: 0.95rem;
+	flex: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.lv-mode-badge {
+	font-size: 0.72rem;
+	font-weight: 600;
+	padding: 2px 8px;
+	border-radius: 999px;
+	background: var(--background-modifier-hover);
+	color: var(--text-muted);
+	flex-shrink: 0;
+}
+
+/* Quick Source Mode Buttons */
+.lv-source-actions {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 6px;
+}
+
+.lv-source-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	font-size: 0.78rem;
+	padding: 5px 6px;
+	border-radius: 6px;
+	cursor: pointer;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.lv-source-btn:hover {
+	background: var(--background-modifier-hover);
+	border-color: var(--interactive-accent);
+}
+
+.lv-btn-icon {
+	display: flex;
+	align-items: center;
+}
+
+.lv-btn-icon svg {
+	width: 14px;
+	height: 14px;
+}
+
+/* Engine & Voice Config Bar */
+.lv-config-bar {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	padding: 8px 10px;
+	background: var(--background-secondary);
+	border-radius: 8px;
+	border: 1px solid var(--background-modifier-border);
+}
+
+.lv-field-group {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+}
+
+.lv-field-label {
+	font-size: 0.76rem;
+	font-weight: 600;
+	color: var(--text-muted);
+	min-width: 65px;
+}
+
+.lv-select {
+	flex: 1;
+	font-size: 0.8rem;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Piper Offline 1-Click Installer Banner */
+.lv-piper-banner {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	padding: 10px;
+	border-radius: 8px;
+	background: rgba(var(--mono-rgb-100), 0.05);
+	border: 1px dashed var(--interactive-accent);
+}
+
+.lv-piper-banner.is-hidden,
+.lv-status-banner.is-hidden {
+	display: none !important;
+}
+
+.lv-piper-banner-title {
+	font-weight: 600;
+	font-size: 0.85rem;
+	color: var(--text-normal);
+}
+
+.lv-piper-banner-desc {
+	font-size: 0.78rem;
+	color: var(--text-muted);
+	line-height: 1.35;
+}
+
+.lv-install-btn {
+	width: 100%;
+	margin-top: 2px;
+	font-size: 0.8rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/* Status / Error Banner */
+.lv-status-banner {
+	padding: 8px 10px;
+	border-radius: 6px;
+	font-size: 0.78rem;
+	background: rgba(255, 80, 80, 0.14);
+	border: 1px solid rgba(255, 80, 80, 0.35);
+	color: var(--text-error);
+}
+
+/* Main Player Card */
+.lv-player-card {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 12px;
+	border-radius: 10px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+}
+
+.lv-controls-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}
+
+.lv-ctrl-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	background: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	transition: transform 0.12s ease, background 0.15s ease;
+}
+
+.lv-ctrl-btn:hover {
+	background: var(--background-modifier-hover);
+	transform: scale(1.05);
+}
+
+.lv-play-btn {
+	width: 46px;
+	height: 46px;
+	background: var(--interactive-accent) !important;
+	color: var(--text-on-accent) !important;
+	border: none !important;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lv-play-btn:hover {
+	filter: brightness(1.08);
+}
+
+.lv-play-btn.is-loading svg {
+	animation: lv-spin 1s linear infinite;
+}
+
+@keyframes lv-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.lv-speed-select {
+	font-size: 0.78rem;
+	font-weight: 600;
+	padding: 4px 6px;
+	border-radius: 6px;
+	margin-left: 4px;
+}
+
+/* Progress Bar */
+.lv-progress-area {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.lv-progress-track {
+	width: 100%;
+	height: 5px;
+	border-radius: 999px;
+	background: var(--background-modifier-border);
+	overflow: hidden;
+}
+
+.lv-progress-fill {
+	height: 100%;
+	width: 0%;
+	background: var(--interactive-accent);
+	border-radius: 999px;
+	transition: width 0.25s ease;
+}
+
+.lv-progress-text {
+	font-size: 0.75rem;
+	color: var(--text-muted);
+	text-align: center;
+}
+
+/* Transcript Header & List */
+.lv-transcript-header {
+	font-size: 0.75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: var(--text-muted);
+	padding: 0 2px;
+}
+
+.lv-transcript-list {
+	flex: 1;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	padding-right: 4px;
+}
+
+.lv-chunk-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	padding: 8px 10px;
+	border-radius: 8px;
+	background: var(--background-secondary);
+	border: 1px solid transparent;
+	cursor: pointer;
+	transition: background 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
+}
+
+.lv-chunk-item:hover {
+	background: var(--background-modifier-hover);
+	border-color: var(--background-modifier-border);
+}
+
+.lv-chunk-item.is-heading {
+	font-weight: 600;
+	border-left: 3px solid var(--interactive-accent);
+}
+
+.lv-chunk-item.is-past {
+	opacity: 0.6;
+}
+
+.lv-chunk-item.is-active {
+	opacity: 1;
+	background: rgba(var(--interactive-accent-rgb, 124, 77, 255), 0.14);
+	border-color: var(--interactive-accent);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+.lv-chunk-index {
+	font-size: 0.7rem;
+	font-weight: 600;
+	min-width: 22px;
+	height: 20px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	background: var(--background-primary);
+	color: var(--text-muted);
+	flex-shrink: 0;
+	margin-top: 1px;
+}
+
+.lv-chunk-item.is-active .lv-chunk-index {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.lv-chunk-text {
+	font-size: 0.85rem;
+	line-height: 1.45;
+	color: var(--text-normal);
+	word-break: break-word;
+}
+
+.lv-empty-state {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 28px 16px;
+	color: var(--text-muted);
+	gap: 6px;
+}
+
+.lv-empty-title {
+	font-weight: 600;
+	font-size: 0.9rem;
+	color: var(--text-normal);
+}
+
+.lv-empty-desc {
+	font-size: 0.8rem;
+	line-height: 1.4;
+}

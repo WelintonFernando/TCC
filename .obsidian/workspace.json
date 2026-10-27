@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "63e16f9504483d6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "da8388da29557262",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5813e609014b6055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas/resumos/artigos_ingles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "artigos_ingles"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "919724633a6f2f60",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ac5c23bb9571e68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e03915c5ff56c902",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "eb9dff7c19119e21",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "fada35630fa43f6e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "right": {
+    "id": "a5e0d3aaad467bdf",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bd1d0c54e393e33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c23e93feb8ad6ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notas/resumos/artigos_ingles.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "e74d88ace2b2e8ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notas/resumos/artigos_ingles.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "35cc51d5806bbc88",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "03ba14c68c271e6b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "5804dfed50336b5e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notas/resumos/artigos_ingles.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          },
+          {
+            "id": "3bc4e2dd7ce7cefc",
+            "type": "leaf",
+            "state": {
+              "type": "local-voice-sidebar-view",
+              "state": {},
+              "icon": "volume-2",
+              "title": "Local Voice (TTS)"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 423.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
+      "obsidian-local-voice:Local Voice: Abrir leitor em voz alta": false
+    }
+  },
+  "active": "5813e609014b6055",
+  "lastOpenFiles": [
+    "Notas/resumos/artigos_portugues.md",
+    "obsidian-local-voice/node_modules/tslib/modules/index.js",
+    "obsidian-local-voice/node_modules/tslib/modules/package.json",
+    "obsidian-local-voice/node_modules/tslib/modules/index.d.ts",
+    "obsidian-local-voice/node_modules/tslib/modules",
+    "obsidian-local-voice/node_modules/moment/src/lib/format/format.js",
+    "obsidian-local-voice/node_modules/moment/src/lib/format",
+    "obsidian-local-voice/node_modules/esbuild/lib/main.js",
+    "obsidian-local-voice/node_modules/esbuild/lib/main.d.ts",
+    "obsidian-local-voice/node_modules/esbuild/lib",
+    "obsidian-local-voice/node_modules/esbuild/bin/esbuild",
+    "obsidian-local-voice/README.md",
+    "obsidian-local-voice/node_modules/@codemirror/view/CHANGELOG.md",
+    "obsidian-local-voice/node_modules/@types/codemirror/README.md",
+    "obsidian-local-voice/node_modules/typescript/SECURITY.md",
+    "obsidian-local-voice/node_modules/typescript/README.md",
+    "obsidian-local-voice/node_modules/esbuild/LICENSE.md",
+    "obsidian-local-voice/node_modules/style-mod/src/README.md",
+    "Notas/resumos/artigos_ingles.md"
+  ]
+}

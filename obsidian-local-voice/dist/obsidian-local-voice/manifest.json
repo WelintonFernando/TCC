@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-local-voice",
+	"name": "Local Voice (TTS Reader)",
+	"version": "1.0.0",
+	"minAppVersion": "1.4.0",
+	"description": "Leia suas notas em voz alta com uma aba lateral interativa usando TTS 100% local/offline (Piper TTS), vozes neurais gratuitas sem chave de API (Edge TTS) ou vozes nativas do Windows.",
+	"author": "Custom Plugin",
+	"isDesktopOnly": true
+}

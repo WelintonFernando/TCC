@@ -1,0 +1,18 @@
+{
+  "engine": "piper",
+  "playbackRate": 1,
+  "piperVoiceId": "pt_BR-faber-medium",
+  "customPiperExePath": "",
+  "customPiperModelPath": "",
+  "piperLengthScale": 1,
+  "edgeVoice": "pt-BR-AntonioNeural",
+  "systemVoiceURI": "Microsoft Maria - Portuguese (Brazil)",
+  "autoScrollSidebar": true,
+  "scrollEditorWithPlayback": true,
+  "ignoreCodeBlocks": true,
+  "ignoreFrontmatter": true,
+  "ignoreUrls": true,
+  "ignoreTables": false,
+  "ignoreCalloutHeaders": false,
+  "prefetchNextChunk": true
+}
